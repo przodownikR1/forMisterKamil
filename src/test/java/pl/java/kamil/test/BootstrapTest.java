@@ -19,6 +19,12 @@ import pl.java.kamil.dao.user.UserDao;
 import pl.java.kamil.entity.User;
 
 
+/**
+ * @author Sławomir Borowiec 
+ * Module name : jdbcEngine
+ * Creating time :  11 mar 2014 15:08:53
+ 
+ */
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(locations = { "classpath:dao.xml" })
 @Transactional

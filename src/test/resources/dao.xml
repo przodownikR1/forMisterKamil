@@ -21,12 +21,10 @@
     </context:component-scan>
     
 
-    <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource" >
-        <property name="driverClassName" value="${jdbc.driverClassName}"/>
-        <property name="url" value="${jdbc.url}"/>
-        <property name="username" value="${jdbc.username}"/>
-        <property name="password" value="${jdbc.password}"/>
-     </bean>
+      <jdbc:embedded-database type="HSQL" id="dataSource" />
+            <jdbc:initialize-database data-source="dataSource" enabled="true">
+            <jdbc:script location="classpath:initializeHsql.sql" />
+        </jdbc:initialize-database>
 
    
     <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager" p:dataSource-ref="dataSource"/>
@@ -41,3 +39,6 @@
  </bean>
 
 </beans>
+
+  
+        
