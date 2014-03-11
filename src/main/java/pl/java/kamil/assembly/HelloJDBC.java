@@ -6,14 +6,16 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import pl.java.kamil.dao.user.UserDao;
-//mvn clean compile  assembly:single - zrobienie paczki 
-//mvn clean - wyczyszczenie projektu
-//mvn package - zbudowanie projektu 
-//mvn compile - kompilacja kodu
-//mvn install - wrzucenie do lokalnego repo
+//mvn clean compile  assembly:single - prepare package 
+//mvn clean -  clean project
+//mvn package - build project
+//mvn compile - compile source and create classes
+//mvn install - copy package to local repo 
 
-//http://przewidywalna-java.blogspot.com/2014/01/maven.html  - opis narzędzia na moim blogu
+//http://przewidywalna-java.blogspot.com/2014/01/maven.html  - describe maven tool 
 //oraz http://przewidywalna-java.blogspot.com/2014/02/maven-best-practices-enforce-plugin.html
+
+//launch java 
 
 /**
  * @author Sławomir Borowiec 
