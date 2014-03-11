@@ -1,4 +1,4 @@
 forMisterKamil
 ==============
 
-How to use basic and integrate jdbc template with Spring 4.
+How to use and integrate jdbc template with Spring 4.
