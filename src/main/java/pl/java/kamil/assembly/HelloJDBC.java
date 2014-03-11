@@ -15,7 +15,7 @@ import pl.java.kamil.dao.user.UserDao;
 //http://przewidywalna-java.blogspot.com/2014/01/maven.html  - describe maven tool 
 //oraz http://przewidywalna-java.blogspot.com/2014/02/maven-best-practices-enforce-plugin.html
 
-//launch java 
+//launch java -> java -jar springJdbcExample.jar
 
 /**
  * @author Sławomir Borowiec 
